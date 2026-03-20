@@ -3,6 +3,16 @@
 Global
 ========================================
 */
+:root {
+  --dark-green: #103d25;
+  --mid-green: #387b5b;
+  --light-green: #d5e469;
+  --off-white: #f9f9f9;
+  --soft-black: #1c1c1c;
+  --pale-green-1: #b8d2b0;
+  --pale-green-2: #e6f0dd;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -13,7 +23,8 @@ html {
 
 body {
   font-family: verdana, arial, sans-serif, helvetica;
-  background-color: #e5e5e5;
+  background-color: var(--light-green);
+  color: var(--soft-black);
   font-size: 12px;
   margin: 0;
 }
@@ -24,16 +35,16 @@ a {
 }
 
 a:link {
-  color: #003399;
+  color: var(--dark-green);
 }
 
 a:visited {
-  color: #003399;
+  color: var(--dark-green);
 }
 
 a:hover {
   text-decoration: underline;
-  color: #cc0000;
+  color: var(--mid-green);
 }
 
 h1 {
@@ -65,7 +76,7 @@ Master Container
 .master-container {
   margin: 0 auto;
   width: 1100px;
-  background-color: white;
+  background-color: var(--off-white);
 }
 
 /*
@@ -75,11 +86,7 @@ Main Header
 */
 .main-header {
   display: contents;
-  flex-direction: column;
-  justify-content: center;
-  height: 151px;
-  background-color: rgb(0, 51, 153);
-  color: #ffffff;
+  color: var(--off-white);
 }
 
 .main-header ul {
@@ -87,12 +94,12 @@ Main Header
 }
 
 .main-header a:link {
-  color: #ffffff;
+  color: var(--off-white);
   font-weight: normal;
 }
 
 .main-header a:visited {
-  color: #ffffff;
+  color: var(--off-white);
 }
 
 /*
@@ -101,8 +108,7 @@ Search Bar
 ========================================
 */
 .search-bar {
-  display: grid;
-  grid-template-columns: .25fr 1fr .25fr;
+  display: none;
 }
 
 .search-bar form {
@@ -124,11 +130,11 @@ Search Bar
 
 .submit-btn {
   margin: 8px;
-  border: 1px solid black;
+  border: 1px solid var(--dark-green);
   padding: 2px 7px;
-  background-color: #E0FFFF;
+  background-color: var(--off-white);
   font-size: 11px;
-  border-color: rgb(186, 186, 186);
+  border-color: var(--mid-green);
 }
 
 .topnav {
@@ -158,9 +164,9 @@ Navigation Bar
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #003399;
+  background-color: var(--dark-green);
   padding: 10px 0;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid var(--mid-green);
 }
 
 .navbar ul {
@@ -169,20 +175,27 @@ Navigation Bar
   padding: 0;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 14px;
 }
 
 .navbar li::after {
   content: '|';
-  margin: .33rem;
-  color: black;
+  margin-left: 14px;
+  color: var(--light-green);
 }
 
 .navbar li:last-child::after {
   content: '';
 }
 
+.navbar a:link,
+.navbar a:visited {
+  color: var(--off-white);
+  font-size: 13px;
+}
+
 .navbar a:hover {
-  color: #003399;
+  color: var(--light-green);
 }
 
 /*
@@ -243,7 +256,7 @@ Profile Picture Container
   height: 200px;
   object-fit: cover;
   display: block;
-  border: 2px solid #ccc;
+  border: 2px solid var(--mid-green);
 }
 
 .personal-msg {
@@ -272,7 +285,7 @@ Profile Picture Container
   grid-area: 1 / 1;
   justify-self: center;
   align-self: end;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(249, 249, 249, 0.9);
   padding: 2px 4px;
 }
 
@@ -282,14 +295,14 @@ Contact Box
 ========================================
 */
 .contact-box {
-  border: 2px solid rgb(102, 153, 204);
+  border: 2px solid var(--mid-green);
   width: 300px;
   margin-bottom: 24px;
 }
 
 .contact-box h2 {
-  color: white;
-  background-color: rgb(102, 153, 204);
+  color: var(--off-white);
+  background-color: var(--mid-green);
   min-height: 20px;
   padding-left: 10px;
   display: flex;
@@ -310,7 +323,7 @@ MySpace URL
 ========================================
 */
 .myspace-url-box {
-  border: 1px solid rgb(102, 153, 204);
+  border: 1px solid var(--mid-green);
   min-height: 36px;
   margin-bottom: 24px;
 }
@@ -338,7 +351,7 @@ Sidebar Table Class
 ========================================
 */
 .sidebar-table {
-  border: 2px solid rgb(102, 153, 204);
+  border: 2px solid var(--mid-green);
   display: table;
   border-collapse: separate;
   border-spacing: 3px;
@@ -346,8 +359,8 @@ Sidebar Table Class
 }
 
 .sidebar-table-h2 {
-  background-color: rgb(102, 153, 204);
-  color: white;
+  background-color: var(--mid-green);
+  color: var(--off-white);
   text-align: left;
   min-height: 20px;
   padding-left: 15px;
@@ -359,8 +372,8 @@ Sidebar Table Class
   vertical-align: top;
   text-align: left;
   width: 107px;
-  background-color: rgb(177, 208, 240);
-  color: #336699;
+  background-color: var(--pale-green-1);
+  color: var(--dark-green);
   padding: 5px;
   font-weight: bold;
   font-size: 11px;
@@ -368,7 +381,7 @@ Sidebar Table Class
 
 .sidebar-table-data {
   width: 184px;
-  background-color: rgb(213, 232, 251);
+  background-color: var(--pale-green-2);
   padding: 5px;
 }
 
@@ -406,7 +419,7 @@ Schools
 */
 .schools .sidebar-table-header {
   width: 228px;
-  color: black;
+  color: var(--soft-black);
   font-weight: normal;
 }
 
@@ -447,13 +460,15 @@ User Network
   max-width: 680px;
   margin: 13px auto 0 auto;
   min-height: 85px;
-  border: 2px solid black;
+  border: 2px solid var(--dark-green);
   padding: 10px;
   text-align: center;
+  background-color: var(--off-white);
 }
 
 .user-network h2 {
   font-size: 18px;
+  color: var(--dark-green);
 }
 
 /*
@@ -476,15 +491,15 @@ Blog / Selected Research
 .blog details {
   margin-bottom: 12px;
   padding: 10px 12px;
-  border: 1px solid #999;
-  background-color: #f7f7f7;
+  border: 1px solid var(--mid-green);
+  background-color: var(--off-white);
   width: 100%;
 }
 
 .blog summary {
   cursor: pointer;
   font-weight: bold;
-  color: #003399;
+  color: var(--dark-green);
   list-style: none;
 }
 
@@ -513,21 +528,21 @@ Blurbs
 ========================================
 */
 .main-section-header {
-  background-color: #ffcc99;
+  background-color: var(--mid-green);
   padding-top: 4px;
   padding-bottom: 4px;
   margin-bottom: 8px;
 }
 
 .main-section-h2 {
-  color: #FF6600;
+  color: var(--off-white);
   margin-left: 20px;
   font-size: 13px;
 }
 
 .blurbs h3 {
   margin: 0;
-  color: #FF6600;
+  color: var(--dark-green);
   font-size: 13px;
   margin-left: 15px;
 }
@@ -542,7 +557,7 @@ Blurbs
 
 /*
 ========================================
-Friend Space
+Friend Space / Life Lately
 ========================================
 */
 .friends header {
@@ -555,7 +570,7 @@ Friend Space
 }
 
 .focus-highlight {
-  color: #cc0000;
+  color: var(--dark-green);
   font-weight: normal;
   font-size: 13px;
 }
@@ -567,7 +582,7 @@ Friend Space
 }
 
 .friend-pic-container figure {
-  margin: 0px;
+  margin: 0;
   padding: 0;
   text-align: center;
 }
@@ -582,9 +597,9 @@ Friend Space
 }
 
 .friend-pic-container figcaption {
-  color: #003399;
+  color: var(--dark-green);
   margin-top: 8px;
-  margin-bottom: 8px; 
+  margin-bottom: 8px;
   font-size: 13px;
 }
 
@@ -597,7 +612,7 @@ Friend Space
 }
 
 .friends-list-link a {
-  color: #cc0000;
+  color: var(--dark-green);
 }
 
 /*
@@ -626,7 +641,7 @@ Comment Wall
 }
 
 .comment-wall th {
-  background-color: rgb(255, 153, 51);
+  background-color: var(--light-green);
   width: 170px;
   padding: 5px;
   vertical-align: top;
@@ -634,7 +649,7 @@ Comment Wall
 
 .comment-wall td {
   vertical-align: top;
-  background-color: rgb(249, 214, 180);
+  background-color: var(--pale-green-2);
   width: auto;
   padding: 5px;
 }
@@ -678,7 +693,7 @@ Footer
 footer {
   display: grid;
   grid-template-rows: auto auto;
-  background-color: #e5e5e5;
+  background-color: var(--light-green);
   padding: 12px;
   min-height: 70px;
   width: 100%;
