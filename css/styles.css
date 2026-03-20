@@ -218,6 +218,7 @@ Profile Picture Container
   grid-template-rows: 176px;
   grid-column-gap: 15px;
   margin-bottom: 12px;
+  overflow: hidden;
 }
 
 .profile-picture-container p {
