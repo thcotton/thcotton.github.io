@@ -561,8 +561,7 @@ Friend Space
 
 .friend-pic-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .friend-pic-container figure {
