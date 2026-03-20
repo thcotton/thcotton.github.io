@@ -325,6 +325,7 @@ MySpace URL
 ========================================
 */
 .myspace-url-box {
+  width: 300px;
   border: 1px solid rgb(102, 153, 204);
   min-height: 36px;
   margin-bottom: 24px;
