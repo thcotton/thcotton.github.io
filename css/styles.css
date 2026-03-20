@@ -74,7 +74,7 @@ Main Header
 ========================================
 */
 .main-header {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 151px;
