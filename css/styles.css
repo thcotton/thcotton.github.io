@@ -302,6 +302,21 @@ Contact Box
   margin: 0;
   margin-top: 5px;
   margin-left: 10px;
+  
+}
+
+.contact-images svg {
+  width: 1em;
+  height: 1em;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 8px;
+  font-size: 12px; /* matches your site */
+  color: var(#e5e5e5);
 }
 
 /*
