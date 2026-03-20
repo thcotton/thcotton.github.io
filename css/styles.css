@@ -567,7 +567,7 @@ Friend Space
 }
 
 .friend-pic-container figure {
-  margin: 10px;
+  margin: 0px;
   padding: 0;
   text-align: center;
 }
@@ -584,7 +584,7 @@ Friend Space
 .friend-pic-container figcaption {
   color: #003399;
   margin-top: 8px;
-  margin-bottom: 6px; /* THIS adds space between rows */
+  margin-bottom: 8px; 
   font-size: 13px;
 }
 
