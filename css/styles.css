@@ -556,6 +556,19 @@ Blurbs
   margin: 0 12px 15px 15px;
 }
 
+.blurbs {
+  margin-top: 16px;
+  margin-left: 15px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+}
+
+.friends {
+  margin-left: 15px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+}
+
 /*
 ========================================
 Friend Space
