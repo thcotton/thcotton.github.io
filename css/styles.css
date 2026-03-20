@@ -439,33 +439,53 @@ User Network
 Blog
 ========================================
 */
+/*
+========================================
+Blog / Selected Research
+========================================
+*/
 .blog {
   margin-top: 13px;
   margin-left: 12px;
+  margin-right: 12px;
   margin-bottom: 16px;
 }
 
-.blog p {
+.blog > p {
   margin-top: 3px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .blog details {
   margin-bottom: 10px;
-  padding: 6px;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
+  padding: 8px 10px;
+  border: 1px solid #999;
+  background-color: #f7f7f7;
 }
 
 .blog summary {
   cursor: pointer;
   font-weight: bold;
   color: #003399;
+  list-style: none;
+}
+
+.blog summary::-webkit-details-marker {
+  display: none;
+}
+
+.blog summary::before {
+  content: "▶ ";
+}
+
+.blog details[open] summary::before {
+  content: "▼ ";
 }
 
 .blog details p {
   margin-top: 8px;
   margin-bottom: 0;
+  line-height: 1.4;
 }
 
 /*
