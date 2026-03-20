@@ -590,7 +590,7 @@ Friend Space
 .friends-list-link {
   display: flex;
   justify-content: flex-end;
-  margin-top: 7px;
+  margin-top: 8px;
   margin-right: 8px;
   margin-bottom: 30px;
 }
@@ -680,6 +680,9 @@ footer {
   background-color: #e5e5e5;
   padding: 10px;
   min-height: 70px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
 }
 
 footer a {
