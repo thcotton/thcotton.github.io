@@ -11,12 +11,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  font-family: verdana, arial, sans-serif, helvetica;
-  font-size: 12px;
-  margin: 0;
-}
-
 a {
   font-weight: bold;
   text-decoration: none;
@@ -61,8 +55,10 @@ p {
    XP Background (outer layer)
 ======================================== */
 body {
+  font-family: verdana, arial, sans-serif, helvetica;
+  font-size: 12px;
   margin: 0;
-  background-image: url("pictures/XP.jpg"); /* your XP image */
+  background-image: url("pictures/xp.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -345,7 +341,7 @@ Contact Box
   gap: 6px;
   margin: 4px 8px;
   font-size: 12px; /* matches your site */
-  color: (#e5e5e5);
+  color: #e5e5e5;
 }
 
 /*
