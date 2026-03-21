@@ -477,9 +477,17 @@ User Network
 }
 
 .divider {
+  display: flex;
+  justify-content: center;
+  gap: 0;           /* no space between them */
+  margin: 30px 0;
+  line-height: 0;   /* removes tiny gaps under images */
+}
+
+.divider-small {
+  width: 400px;
+  height: auto;
   display: block;
-  margin: 30px auto;
-  width: 400px;   /* adjust to taste */
 }
 /*
 ========================================
