@@ -159,7 +159,7 @@ Navigation Bar
   align-items: center;
   justify-content: center;
   background-color: #003399;
-  padding: 30px 0;
+  padding: 15px 0;
   border-bottom: 2px solid #ccc;
 }
 
@@ -175,21 +175,19 @@ Navigation Bar
   content: '|';
   margin: .33rem;
   color: black;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .navbar li:last-child::after {
   content: '';
 }
 .navbar a {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 .navbar a:hover {
   color: #003399;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 /*
@@ -486,8 +484,8 @@ User Network
 .divider {
   display: flex;
   justify-content: flex-start;
-  gap: 0;           /* no space between them */
-  margin: 30px 30px;
+  gap: 0;
+  margin: 30px 0 30px -15px;
 }
 
 .divider-small {
