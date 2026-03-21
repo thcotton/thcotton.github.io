@@ -482,7 +482,7 @@ User Network
   gap: 0;           /* no space between them */
   margin: 30px 0;
   line-height: 0;   /* removes tiny gaps under images */
-  left: -25px; 
+  left: -50px; 
 }
 
 .divider-small {
