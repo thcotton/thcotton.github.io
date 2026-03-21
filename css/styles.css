@@ -62,7 +62,7 @@ p {
 ======================================== */
 body {
   margin: 0;
-  background-image: url("pictures/xp.jpg"); /* your XP image */
+  background-image: url("pictures/XP.jpg"); /* your XP image */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -72,12 +72,13 @@ body {
    Grey "desktop" layer
 ======================================== */
 .desktop-pad {
-  width: 1050px;              /* controls overall width */
-  margin: 60px auto;          /* space around (shows XP) */
+  width: 1400px;              /* controls overall width */
+  min-height: 100vh;          /* stretches to bottom of viewport */
+  margin: 0px auto;          /* space around (shows XP) */
   background-color: #e5e5e5;  /* your original grey */
-  padding: 20px;
   border: 2px solid #b5b5b5;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+  padding: 0 40px 40px 40px;  /* more visible grey on left/right */
+  box-shadow: 0 15px 40px rgba(0,0,0,0.35);
 }
 
 /*
