@@ -68,12 +68,18 @@ body {
    Grey "desktop" layer
 ======================================== */
 .desktop-pad {
-  width: 1400px;              /* controls overall width */
-  min-height: 100vh;          /* stretches to bottom of viewport */
-  margin: 0px auto;          /* space around (shows XP) */
-  background-color: #e5e5e5;  /* your original grey */
-  border: 2px solid #b5b5b5;
-  padding: 0 40px 40px 40px;  /* more visible grey on left/right */
+  width: 1500px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+
+  padding: 0 40px 40px 40px;
+
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-top: none;
+
   box-shadow: 0 15px 40px rgba(0,0,0,0.35);
 }
 
