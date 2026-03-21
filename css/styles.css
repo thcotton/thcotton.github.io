@@ -476,6 +476,11 @@ User Network
   font-size: 18px;
 }
 
+.divider {
+  display: block;
+  margin: 25px auto;
+  width: 500px;      /* adjust as needed */
+}
 /*
 ========================================
 Blog / Selected Research
