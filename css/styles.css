@@ -476,17 +476,10 @@ User Network
   font-size: 18px;
 }
 
-.divider-row {
-  display: flex;
-  width: 100%;
-  margin: 25px 0;
-  line-height: 0;
-}
-
-.divider-half {
+.divider {
   display: block;
-  width: 50%;
-  height: auto;
+  margin: 30px auto;
+  width: 400px;   /* adjust to taste */
 }
 /*
 ========================================
