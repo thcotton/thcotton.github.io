@@ -13,7 +13,6 @@ html {
 
 body {
   font-family: verdana, arial, sans-serif, helvetica;
-  background-color: #e5e5e5;
   font-size: 12px;
   margin: 0;
 }
@@ -55,6 +54,30 @@ h3 {
 
 p {
   line-height: 1.45;
+}
+
+
+/* ========================================
+   XP Background (outer layer)
+======================================== */
+body {
+  margin: 0;
+  background-image: url("pictures/xp.jpg"); /* your XP image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ========================================
+   Grey "desktop" layer
+======================================== */
+.desktop-pad {
+  width: 1050px;              /* controls overall width */
+  margin: 60px auto;          /* space around (shows XP) */
+  background-color: #e5e5e5;  /* your original grey */
+  padding: 20px;
+  border: 2px solid #b5b5b5;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
 }
 
 /*
@@ -601,6 +624,7 @@ Blurbs
   height: 20px;
   vertical-align: middle;
   margin-left: 0;
+  margin-bottom: 10px;
 }
 /*
 ========================================
