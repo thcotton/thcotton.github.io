@@ -58,7 +58,7 @@ body {
   font-family: verdana, arial, sans-serif, helvetica;
   font-size: 12px;
   margin: 0;
-  background-image: url("pictures/xp.jpg");
+  background-image: url("../pictures/XP.jpg");;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
