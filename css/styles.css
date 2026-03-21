@@ -807,3 +807,28 @@ footer small {
   margin-top: 8px;
   width: 100%;
 }
+
+@media (max-width: 900px) {
+  body {
+    background-image: url("../pictures/XP.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .desktop-pad {
+    width: 100%;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(229, 229, 229, 0.92);
+    box-shadow: none;
+    border: none;
+  }
+
+  .master-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+}
