@@ -7,30 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-## Published
-
 {% for post in site.portfolio %}
-  {% if post.status == "published" %}
-    <p>
-      <strong>{{ post.title }}</strong><br>
-      {{ post.excerpt }}<br>
-      {% if post.paperurl %}
-        Available here: <a href="{{ post.paperurl }}">View paper</a>
-      {% endif %}
-    </p>
-  {% endif %}
-{% endfor %}
-
-## Works in Progress
-
-{% for post in site.portfolio %}
-  {% if post.status == "in-progress" %}
-    <p>
-      <strong>{{ post.title }}</strong><br>
-      {{ post.excerpt }}<br>
-      {% if post.paperurl %}
-        Available here: <a href="{{ post.paperurl }}">View paper</a>
-      {% endif %}
-    </p>
-  {% endif %}
+  <p>
+    <strong>{{ post.title }}</strong><br>
+    {{ post.excerpt }}
+  </p>
 {% endfor %}
