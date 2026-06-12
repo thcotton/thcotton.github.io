@@ -5,21 +5,21 @@ permalink: /research/
 author_profile: true
 ---
 
-{% include base_path %}
-
 {% for post in site.portfolio %}
-  <p>
+<details>
+  <summary>
     <strong>{{ post.title }}</strong>
-  </p>
-
-  <details>
-    <summary>Abstract</summary>
-    <p>{{ post.excerpt }}</p>
-
-    {% if post.paperurl %}
-      <p><a href="{{ post.paperurl }}">View Paper</a></p>
+    {% if post.status %}
+      — {{ post.status }}
     {% endif %}
-  </details>
+  </summary>
 
-  <br>
+  <p>{{ post.excerpt }}</p>
+
+  {% if post.paperurl %}
+    <p><a href="{{ post.paperurl }}">View Paper</a></p>
+  {% endif %}
+</details>
+
+<br>
 {% endfor %}
