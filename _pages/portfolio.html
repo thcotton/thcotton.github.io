@@ -6,20 +6,24 @@ author_profile: true
 ---
 
 {% for post in site.portfolio %}
-<details>
-  <summary>
-    <strong>{{ post.title }}</strong>
-    {% if post.status %}
-      — {{ post.status }}
-    {% endif %}
-  </summary>
 
-  <p>{{ post.excerpt }}</p>
+<p>
+  <strong>{{ post.title }}</strong>
+
+  {% if post.status %}
+    — <em>{{ post.status }}</em>
+  {% endif %}
 
   {% if post.paperurl %}
-    <p><a href="{{ post.paperurl }}">View Paper</a></p>
+    — <a href="{{ post.paperurl }}">PDF</a>
   {% endif %}
+</p>
+
+<details>
+  <summary>Abstract</summary>
+  <p>{{ post.excerpt }}</p>
 </details>
 
 <br>
+
 {% endfor %}
