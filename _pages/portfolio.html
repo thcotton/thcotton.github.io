@@ -8,14 +8,17 @@ author_profile: true
 {% for post in site.portfolio %}
 
 <p>
-  <strong>{{ post.title }}</strong>
+  <strong>{{ post.title }}</strong><br>
 
   {% if post.status %}
-    — <em>{{ post.status }}</em>
+    <em>{{ post.status }}</em><br>
   {% endif %}
 
+  Available at:
   {% if post.paperurl %}
-    — <a href="{{ post.paperurl }}">Available Here</a>
+    <a href="{{ post.paperurl }}">Link</a>
+  {% elsif post.availability %}
+    {{ post.availability }}
   {% endif %}
 </p>
 
