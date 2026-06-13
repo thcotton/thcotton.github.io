@@ -1,9 +1,7 @@
 ---
 title: "Defending the Hypothesis of Indifference, SHERM Journal 5 (1): 161–167 (2023)"
+status: "Published in SHERM Journal 5 (1): 161–167 (2023)"
 excerpt: "The problem of evil is the philosophical question regarding how to reconcile the existence of an omnipotent, omnibenevolent, and omniscient God with the pain and suffering in the world. The Hypothesis of Indifference is Paul Draper’s proposal considering that question. His claim is that the pain and pleasure we experience in our lifetimes has nothing to do with God or some other supernatural force acting as an agent of good or evil. In this paper, I argue that Draper’s Hypothesis of Indifference is a better explanation for why we experience pain and pleasure than theism is and that it survives major contemporary criticisms posed by Peter van Inwagen and William Alston."
+paperurl: "https://www.shermjournal.org/articles/defending-the-hypothesis-of-indifference"
 collection: portfolio
 ---
-The problem of evil is the philosophical question regarding how to reconcile the existence of an omnipotent, omnibenevolent, and omniscient God with the pain and suffering in the world. The Hypothesis of Indifference is Paul Draper’s proposal considering that question. His claim is that the pain and pleasure we experience in our lifetimes has nothing to do with God or some other supernatural force acting as an agent of good or evil. In this paper, I argue that Draper’s Hypothesis of Indifference is a better explanation for why we experience pain and pleasure than theism is and that it survives major contemporary criticisms posed by Peter van Inwagen and William Alston.
-<br>
-<br>
-Paper available at: <a href="https://www.shermjournal.org/articles/defending-the-hypothesis-of-indifference">SHERM</a>
