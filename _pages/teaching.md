@@ -3,7 +3,7 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
---------------------
+---
 
 I have served as Instructor of Record and Teaching Assistant at both the University of Arkansas and the University of California, Irvine. Selected syllabi are available below.
 
