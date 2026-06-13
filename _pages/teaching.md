@@ -3,30 +3,32 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
----
-<br>
-I have served as Instructor of Record for three courses at the University of Arkansas. Syllabi are available below.
+--------------------
 
-## Instructor of Record, University of Arkansas
+I have served as Instructor of Record and Teaching Assistant at both the University of Arkansas and the University of California, Irvine. Selected syllabi are available below.
 
-- [Introduction to Ethics](https://thcotton.github.io/files/Ethics.pdf)
-- [Introduction to Philosophy](https://thcotton.github.io/files/Intro.pdf)
-- [Introduction to Logic](https://thcotton.github.io/files/Logic.pdf)
+## University of California, Irvine
 
-## Instructor of Record, University of California, Irvine
+### Instructor of Record
 
-- Making Modern Science
-  
-In addition, I have worked as a Teaching Assistant at both the University of Arkansas and the University of California, Irvine.
+* Making Modern Science
 
-## Teaching Assistant, University of Arkansas
+### Teaching Assistant
 
-- Introduction to Philosophy
+* Race, Sex, and Science
+* Critical Reasoning
+* Honors: The Good Life
+* Honors: Critical Issues in the Social Sciences
+* Honors: Naturalized Epistemology
 
-## Teaching Assistant, University of California, Irvine
+## University of Arkansas
 
-- Race, Sex, and Science  
-- Critical Reasoning  
-- Honors: The Good Life  
-- Honors: Critical Issues in the Social Sciences  
-- Honors: Naturalized Epistemology
+### Instructor of Record
+
+* [Introduction to Ethics](https://thcotton.github.io/files/Ethics.pdf)
+* [Introduction to Philosophy](https://thcotton.github.io/files/Intro.pdf)
+* [Introduction to Logic](https://thcotton.github.io/files/Logic.pdf)
+
+### Teaching Assistant
+
+* Introduction to Philosophy
