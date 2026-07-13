@@ -11,7 +11,7 @@ I have served as Instructor of Record and Teaching Assistant at both the Univers
 
 ### Instructor of Record
 
-* Making Modern Science
+* [Making Modern Science](https://thcotton.github.io/files/MMS.pdf)
 
 ### Teaching Assistant
 
