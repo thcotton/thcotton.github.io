@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <br>
-I am a philosopher of science and epistemologist working at the intersection of philosophy of science, philosophy of AI, social and feminist epistemology, and computational methods (in particular, applied machine learning, data science, and computational linguistics).
+I am a philosopher of science working at the intersection of philosophy of AI, social and feminist epistemology, and computational methods (in particular, applied machine learning, data science, and computational linguistics).
 
 Currently, I'm a Ph.D. student in the [Department of Logic and Philosophy of Science at the University of California, Irvine](https://www.lps.uci.edu/). My dissertation explores how AI systems can both shape our epistemic practices and serve as tools for understanding them. 
 
