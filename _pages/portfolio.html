@@ -14,11 +14,14 @@ author_profile: true
     <em>{{ post.status }}</em><br>
   {% endif %}
 
-  Available
-  {% if post.paperurl %}
-    <a href="{{ post.paperurl }}">here</a>
-  {% elsif post.availability %}
-    {{ post.availability }}
+  {% if post.paperurl or post.availability %}
+    Available
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">here</a>
+    {% elsif post.availability %}
+      {{ post.availability }}
+    {% endif %}
+    <br>
   {% endif %}
 </p>
 
