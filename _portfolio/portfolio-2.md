@@ -1,5 +1,5 @@
 ---
-title: "Scientific Metaphor and the Space Between Words"
+title: "On Using Word Embeddings to Study Scientific Metaphor"
 status: "Work in progress"
 availability: "by request"
 collection: portfolio
