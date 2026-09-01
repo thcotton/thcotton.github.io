@@ -5,9 +5,8 @@ permalink: /public/
 author_profile: true
 ---
 
-In addition to my academic work, I also sometimes write pieces for a wider audience.
+In addition to my academic work, I also sometimes write pieces about technology, society, and science for a wider audience.
 
-### Public Writing:
+### Public Writing
 
-* [Why the New Surveillance Doesn’t Feel Like Surveillance at All](https://www.prindleinstitute.org/2026/08/why-the-new-surveillance-doesnt-feel-like-surveillance-at-all/)
-
+* [Why the New Surveillance Doesn’t Feel Like Surveillance at All](https://www.prindleinstitute.org/2026/08/why-the-new-surveillance-doesnt-feel-like-surveillance-at-all/) The Prindle Post, August 2026.
